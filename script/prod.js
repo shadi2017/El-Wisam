@@ -4,7 +4,7 @@ let productCategory = document.getElementById("brand");
 let productPrice = document.getElementById("price");
 let productPar = document.getElementById("par");
 const id = new URLSearchParams(window.location.search).get("id");
-fetch(`products.json`)
+fetch(`API/products.json`)
   .then((res) => res.json())
   .then((data) => {
     const product = data.products.find(p => p.id == id);
