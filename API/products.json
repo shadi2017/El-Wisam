@@ -1,0 +1,335 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "../img/About/1.jpg",
+      "name": "باي باب جرانزيا - Bipap Granzia 30x",
+      "price": 40000,
+      "category": "اجهزة التنفس",
+      "description": "باي باب جرانزيا - Bipap Granzia 30x"
+    },
+    {
+      "id": 2,
+      "img": "../img/About/2.jpg",
+      "name": "جهاز اليبولايزر- NeboSonic",
+      "price": 3350,
+      "category": "اجهزة التنفس",
+      "description": "جهاز اليبولايزر- NeboSonic"
+    },
+    {
+      "id": 3,
+      "img": "../img/About/3.jpg",
+      "name": "جهاز الباي باب ماركه جرانزيا  - Bipap Granzia",
+      "price": 41000,
+      "category": "اجهزة التنفس",
+      "description": "جهاز الباي باب ماركه جرانزيا  - Bipap Granzia"
+    },
+    {
+      "id": 4,
+      "img": "../img/About/4.jpg",
+      "name": "ماسك سباب نيزل ايطالي - Nasal CPAP Mask Granzia",
+      "price": 1900,
+      "category": "اجهزة التنفس",
+      "description": "ماسك سباب نيزل ايطالي - Nasal CPAP Mask Granzia"
+    },
+    {
+      "id": 5,
+      "img": "../img/About/5.jpg",
+      "name": "  مولد اكسجين جرانزيا 10 لتر - OXygen Concentrator Granzia ",
+      "price": 42000,
+      "category": "اجهزة التنفس",
+      "description": "مولد اكسجين جرانزيا 10 لتر - OXygen Concentrator Granzia "
+    },
+    {
+      "id": 6,
+      "img": "../img/About/6.jpg",
+      "name": "  جهاز الباي باب جهاز تنفس - Bipap Omega  ",
+      "price": 28670,
+      "category": "اجهزة التنفس",
+      "description": "  جهاز الباي باب جهاز تنفس - Bipap Omega  "
+    },
+    {
+      "id": 7,
+      "img": "../img/About/7.jpg",
+      "name": "جهاز شفاط افرازات الكتروني من اوميجا 1 لتر",
+      "price": 3570,
+      "category": "اجهزة شفط",
+      "description": "جهاز شفاط افرازات الكتروني من اوميجا 1 لتر"
+    },
+    {
+      "id": 8,
+      "img": "../img/About/8.jpg",
+      "name": " جهاز شفاط بلغم جراحي ايطالي - Suction Machine Aspiret",
+      "price": 32500,
+      "category": "اجهزة شفط",
+      "description": "مولد اكسجين جرانزيا 10 لتر - OXygen Concentrator Granzia "
+    },
+    {
+      "id": 9,
+      "img": "../img/About/9.jpg",
+      "name": " جهاز الفاكيوم لشفط السوائل والصديد من الجروح - Suction Machine Yuwell",
+      "price": 6500,
+      "category": "اجهزة شفط",
+      "description": "مولد اكسجين جرانزيا 10 لتر - OXygen Concentrator Granzia "
+    },
+    {
+      "id": 10,
+      "img": "../img/About/10.jpg",
+      "name": "  سرير كهربائي 4 وضعيات    ",
+      "price": "",
+      "category": "أسرة المرضي",
+      "description": "  سرير كهربائي 4 وضعيات  "
+    },
+    {
+      "id": 11,
+      "img": "../img/About/11.jpg",
+      "name": "  سرير مساج الومنيوم  ",
+      "price": "",
+      "category": "أسرة المرضي",
+      "description": "  سرير مساج الومنيوم  "
+    },
+    {
+      "id": 12,
+      "img": "../img/About/12.jpg",
+      "name": " سرير رعايه بحركتين  ",
+      "price": "",
+      "category": "أسرة المرضي",
+      "description": " سرير رعايه بحركتين  "
+    },
+    {
+      "id": 13,
+      "img": "../img/About/13.jpg",
+      "name": "  سرير كهربائي 5 وضعيات   ",
+      "price": "",
+      "category": "أسرة المرضي",
+      "description": "سرير كهربائي 4 وضعيات   "
+    },
+    {
+      "id": 14,
+      "img": "../img/About/14.jpg",
+      "name": " دياثرمي جهاز كي جراحي كهربائي - Diathermy Machine 400 HP",
+      "price": "",
+      "category": "اجهزة عمليات",
+      "description": " دياثرمي جهاز كي جراحي كهربائي - Diathermy Machine 400 HP "
+    },
+    
+    {
+      "id": 15,
+      "img": "../img/About/15.jpg",
+      "name": " جهاز رسم قلب 12 قناه - ECG Machine 12 Channel",
+      "price": "",
+      "category": "اجهزة عمليات",
+      "description": " جهاز رسم قلب 12 قناه - ECG Machine 12 Channel "
+    },
+   
+    {
+      "id": 16,
+      "img": "../img/About/16.jpg",
+      "name": "  مولد اكسجين جرانزيا 10 لتر - OXygen Concentrator Granzia ",
+      "price": 42000,
+      "category": "اجهزة عمليات",
+      "description": "مولد اكسجين جرانزيا 10 لتر - OXygen Concentrator Granzia "
+    },
+    {
+      "id": 16,
+      "img": "../img/About/17.jpg",
+      "name": "  كشاف عمليات ليد سقف فردي - TRLEDSZ 4",
+      "price": "",
+      "category": "اجهزة عمليات",
+      "description": " كشاف عمليات ليد سقف فردي - TRLEDSZ 4 "
+    },
+    {
+      "id": 17,
+      "img": "../img/About/18.jpg",
+      "name": "جهاز تخدير - Anesthesia Machine WATO EX-20",  
+      "price": "",
+      "category": "اجهزة عمليات",
+      "description": "جهاز تخدير - Anesthesia Machine WATO EX-20"
+    },
+    {
+      "id": 18,
+      "img": "../img/About/18.jpg",
+      "name": "  جهاز العلاج بالموجات التصادميه - Shockwave Therapy Machine Onda",
+      "price": "",
+      "category": "اجهزة عمليات",
+      "description": " جهاز العلاج بالموجات التصادميه - Shockwave Therapy Machine Onda "
+    },
+    {
+      "id": 19,
+      "img": "../img/About/19.jpg",
+      "name": "  جهاز منع التجلط الوريدي العميق - DVT Machine 2600",
+      "price": "",
+      "category": "اجهزة عمليات",
+      "description": " جهاز منع التجلط الوريدي العميق - DVT Machine 2600 "
+    },
+    {
+      "id": 20,
+      "img": "../img/About/20.jpg",
+      "name": "كراش ترولي لتخزين الدواء - MT- 857071A2",
+      "price": "",
+      "category": "اجهزة عمليات",
+      "description": "كراش ترولي لتخزين الدواء - MT- 857071A2"
+    },
+  
+    {
+      "id": 21,
+      "img": "../img/About/21.jpg",
+      "name": "  جهاز تعقيم اوتوكلاف محلي 75 لتر - تصميم روسي ",
+      "price": "",
+      "category": "اجهزة عمليات",
+      "description": " جهاز تعقيم اوتوكلاف محلي 75 لتر - تصميم روسي "
+    },
+    {
+      "id": 22,
+      "img": "../img/About/22.jpg",
+      "name": "  سرنجة محاليل - SN 50C6 ",
+      "price": "",
+      "category": "اجهزة عمليات",
+      "description": " سرنجة محاليل - SN 50C6 "
+    },
+    {
+      "id": 23,
+      "img": "../img/About/23.jpg",
+      "name": "  اوتوماتيك باي باب - Auto Bpap G3 B25VT",
+      "price": "",
+      "category": "اجهزة عمليات",
+      "description": " اوتوماتيك باي باب - Auto Bpap G3 B25VT "
+    },
+    {
+      "id": 24,
+      "img": "../img/About/24.jpg",
+      "name": "  جهاز صدمات لمراقبه وانعاش القلب - XD ",
+      "price": 140605,
+      "category": "اجهزة رعاية ",
+      "description": "جهاز صدمات لمراقبه وانعاش القلب - XD "
+    },
+    {
+      "id": 25,
+      "img": "../img/About/25.jpg",
+      "name": "   منتور لقياس الوضائف الحيويه للمريض",
+      "price": 55000,
+      "category": "اجهزة رعاية ",
+      "description": " منتور لقياس الوضائف الحيويه للمريض"
+    },
+    {
+      "id": 26,
+      "img": "../img/About/26.jpg",
+      "name": "  مضخه محاليل - infusion pump ",
+      "price": 19150,
+      "category": "اجهزة رعاية ",
+      "description": " مضخه محاليل - infusion pump "
+    },
+    {
+      "id": 27,
+      "img": "../img/About/27.jpg",
+      "name": "  جهاز الاشعه السينيه المتنقل - PXP Series",
+      "price": "",
+      "category": "اجهزة السونار و الأشعة",
+      "description": " جهاز الاشعه السينيه المتنقل - PXP Series "
+    },
+    {
+      "id": 28,
+      "img": "../img/About/28.jpg",
+      "name": "  جهاز مراقبه نبض الجنين وانباض الرحم بطارية - (Single & TWins) BT-350 ",
+      "price": 51451,
+      "category": "اجهزة السونار و الأشعة",
+      "description": " جهاز مراقبه نبض الجنين وانباض الرحم بطارية - (Single & TWins) BT-350 "
+    },
+    {
+      "id": 29,
+      "img": "../img/About/29.jpg",
+      "name": "  جخاز الاشعة السينية المتنقل - IRay D3 ",
+      "price": 97200,
+      "category": "اجهزة السونار و الأشعة",
+      "description": " جخاز الاشعة السينية المتنقل - IRay D3 "
+    },
+    {
+      "id": 30,
+      "img": "../img/About/30.jpg",
+      "name": " سونار بشري Bullet in Trolley",
+      "price": 255000,
+      "category": "اجهزة السونار و الأشعة",
+      "description": " سونار بشري Bullet in Trolley"
+    },
+    {
+      "id": 31,
+      "img": "../img/About/31.jpg",
+      "name": "  كرسي أسنان ",
+      "price": "",
+      "category": "اجهزة السونار و الأشعة",
+      "description": "كرسي أسنان "
+    },
+    {
+      "id": 32,
+      "img": "../img/About/32.jpg",
+      "name": "  Traus SUS20 Piezo Surgery System",
+      "price": 132700,
+      "category": "اجهزة السونار و الأشعة",
+      "description": "Traus SUS20 Piezo Surgery System"
+    },
+    {
+      "id": 33,
+      "img": "../img/About/33.jpg",
+      "name": " كرسي أسنان  ",
+      "price": "",
+      "category": "اجهزة اسنان",
+      "description": "كرسي أسنان  "
+    },
+    {
+      "id": 34,
+      "img": "../img/About/34.jpg",
+      "name": "  منظار عنق الرحم OMega Video Colpocope ",
+      "price": "",
+      "category": "اجهزة نساء و توليد",
+      "description": " منظار عنق الرحم OMega Video Colpoc"
+    },
+    {
+      "id": 35,
+      "img": "../img/About/35.jpg",
+      "name": "  جهاز قياس نبض الجنين للتوأم - CTG unicare fetal monitor TWIN ",
+      "price": "",
+      "category": "اجهزة نساء و توليد",
+      "description": " جهاز قياس نبض الجنين للتوأم - CTG unicare fetal monitor TWIN "
+    },
+    {
+      "id": 36,
+      "img": "../img/About/36.jpg",
+      "name": "  سونار شيزون كلر دوبلر - CHISON QBTI3 ",
+      "price": "",
+      "category": "اجهزة نساء و توليد",
+      "description": " سونار شيزون كلر دوبلر - CHISON QBTI3 "
+    },
+    {
+      "id": 37,
+      "img": "../img/About/37.jpg",
+      "name": "  Gyna Examination Bed ",
+      "price": "",
+      "category": "اجهزة نساء و توليد",
+      "description": " Gyna Examination Bed "
+    },
+    {
+      "id": 38,
+      "img": "../img/About/38.jpg",
+      "name": "  جهاز سونار رباعي الابعاد تشيزون - Chison CBit 5",
+      "price": "",
+      "category": "اجهزة نساء و توليد",
+      "description": " جهاز سونار رباعي الابعاد تشيزون - Chison CBit 5"
+    },
+    {
+      "id": 39,
+      "img": "../img/About/39.jpg",
+      "name": "  جهاز سونار تشيزون ايكو  اكسبيرت - Chison ECO Expert With Pulse Wave Doppler",
+      "price": "",
+      "category": "اجهزة نساء و توليد",
+      "description": " جهاز سونار تشيزون ايكو  اكسبيرت - Chison ECO Expert With Pulse Wave Doppler"
+    },
+    {
+      "id": 40,
+      "img": "../img/About/40.jpg",
+      "name": "  جهاز سونار اوميجا - Omega Ultrasound (XF-300)",
+      "price": "",
+      "category": "اجهزة نساء و توليد",
+      "description": " جهاز سونار اوميجا - Omega Ultrasound (XF-300)"
+    }
+  ]
+}
