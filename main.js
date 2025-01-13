@@ -181,7 +181,7 @@ async function loadCartContent() {
       productIDs.map(async (id) => {
         try {
           const response = await fetch(
-            `https://json-server-brown-five.vercel.app/products?id=${id}`
+            `API/products.json?id=${id}`
           );
           const data = await response.json();
 
@@ -283,7 +283,7 @@ async function addToCart(id) {
   }
   try {
     const response = await fetch(
-      `https://json-server-brown-five.vercel.app/products?id=${id}`
+      `API/products.json?id=${id}`
     );
     const data = await response.json();
 
