@@ -348,3 +348,42 @@ function updateTotal() {
   total = total.toFixed(2);
   totalElement.innerHTML = `$${total}`;
 }
+
+// filepath: /c:/Users/NTG/Downloads/El-Wisam/El-Wisam/main.js
+function addToCart(productId) {
+  fetch('API/products.json')
+    .then(response => response.json())
+    .then(data => {
+      const product = data.products.find(p => p.id == productId);
+      if (product) {
+        // Add product to cart logic here
+        console.log('Product added to cart:', product);
+        // Example: Add product to local storage or update cart UI
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        cart.push(product);
+        localStorage.setItem('cart', JSON.stringify(cart));
+        updateCartUI();
+      } else {
+        console.error('Product not found');
+      }
+    })
+    .catch(error => console.error('Error fetching product:', error));
+}
+
+// Example usage of addToCart function
+document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const productId = button.getAttribute('data-product-id');
+    addToCart(productId);
+  });
+});
+
+function updateCartUI() {
+  const cart = JSON.parse(localStorage.getItem('cart')) || [];
+  const cartCounter = document.getElementById('cart-counter');
+  cartCounter.textContent = cart.length;
+  // Update other cart UI elements if needed
+}
+
+// Call updateCartUI on page load to reflect the current cart state
+document.addEventListener('DOMContentLoaded', updateCartUI);
