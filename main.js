@@ -63,57 +63,70 @@ fetch('API/products.json')
     productsData = data.products; // Store the data in a higher scope
     // Populate products
     requestAndBuild(productsData);
+
+    // Add filter event listeners after data is fetched
+    filter[0].addEventListener("click", function () {
+      requestAndBuild(productsData); // Show all products
+    });
+
+    filter[1].addEventListener("click", function () {
+      requestAndBuild(productsData.filter(p => p.category === 'اجهزة التنفس'));
+    });
+
+    filter[2].addEventListener("click", function () {
+      requestAndBuild(productsData.filter(p => p.category === 'اجهزة شفط'));
+    });
+
+    filter[3].addEventListener("click", function () {
+      requestAndBuild(productsData.filter(p => p.category === 'أسرة المرضي'));
+    });
+
+    filter[4].addEventListener("click", function () {
+      requestAndBuild(productsData.filter(p => p.category === 'اجهزة عمليات'));
+    });
+
+    filter[5].addEventListener("click", function () {
+      requestAndBuild(productsData.filter(p => p.category === 'اجهزة رعاية '));
+    });
+
+    filter[6].addEventListener("click", function () {
+      requestAndBuild(productsData.filter(p => p.category === 'اجهزة السونار و الأشعة'));
+    });
+
+    filter[7].addEventListener("click", function () {
+      requestAndBuild(productsData.filter(p => p.category === 'اجهزة اسنان'));
+    });
+
+    filter[8].addEventListener("click", function () {
+      requestAndBuild(productsData.filter(p => p.category === 'اجهزة نساء و توليد'));
+    });
   })
   .catch(error => console.error('Error fetching products:', error));
 
 function requestAndBuild(products) {
-  // Build product cards
-  products.forEach(product => {
-    const productCard = document.createElement('div');
-    productCard.classList.add('product-card');
-    productCard.innerHTML = `
-      <img src="${product.img}" alt="${product.name}">
-      <h3>${product.name}</h3>
-      <p>${product.category}</p>
-      <p>$${product.price}</p>
-      <button class="add-to-cart-btn" data-product-id="${product.id}">Add to Cart</button>
+  pro.innerHTML = ""; // Clear existing products
+  products.forEach((element) => {
+    let div = document.createElement("div");
+    div.classList.add("pro");
+    div.innerHTML = `
+                  <img src="${element.img}" alt="" onclick="clicked(${element.id})">
+            <div class="des">
+                <span>${element.category}</span>
+                <h5>${element.name}</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$${element.price}</h4>
+            </div>
+            <a id="cart" onclick="addToCart(${element.id})"><i class="fa-solid fa-cart-shopping cart"></i></a>
     `;
-    pro.appendChild(productCard);
-  });
-
-  // Add event listeners to add-to-cart buttons
-  document.querySelectorAll('.add-to-cart-btn').forEach(button => {
-    button.addEventListener('click', () => {
-      const productId = button.getAttribute('data-product-id');
-      addToCart(productId);
-    });
+    pro.appendChild(div);
   });
 }
-
-function addToCart(productId) {
-  const product = productsData.find(p => p.id == productId);
-  if (product) {
-    // Add product to cart logic here
-    console.log('Product added to cart:', product);
-    // Example: Add product to local storage or update cart UI
-    let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    cart.push(product);
-    localStorage.setItem('cart', JSON.stringify(cart));
-    updateCartUI();
-  } else {
-    console.error('Product not found');
-  }
-}
-
-function updateCartUI() {
-  const cart = JSON.parse(localStorage.getItem('cart')) || [];
-  const cartCounter = document.getElementById('cart-counter');
-  cartCounter.textContent = cart.length;
-  // Update other cart UI elements if needed
-}
-
-// Call updateCartUI on page load to reflect the current cart state
-document.addEventListener('DOMContentLoaded', updateCartUI);
 
 /** --------- product ----------- */
 function clicked(id) {
