@@ -69,36 +69,39 @@ fetch('API/products.json')
       requestAndBuild(productsData); // Show all products
     });
 
-    filter[1].addEventListener("click", function () {
+    filter[2].addEventListener("click", function () {
       requestAndBuild(productsData.filter(p => p.category === 'اجهزة التنفس'));
     });
 
-    filter[2].addEventListener("click", function () {
+    filter[3].addEventListener("click", function () {
       requestAndBuild(productsData.filter(p => p.category === 'اجهزة شفط'));
     });
 
-    filter[3].addEventListener("click", function () {
+    filter[4].addEventListener("click", function () {
       requestAndBuild(productsData.filter(p => p.category === 'أسرة المرضي'));
     });
 
-    filter[4].addEventListener("click", function () {
+    filter[5].addEventListener("click", function () {
       requestAndBuild(productsData.filter(p => p.category === 'اجهزة عمليات'));
     });
 
-    filter[5].addEventListener("click", function () {
+    filter[6].addEventListener("click", function () {
       requestAndBuild(productsData.filter(p => p.category === 'اجهزة رعاية '));
     });
 
-    filter[6].addEventListener("click", function () {
+    filter[7].addEventListener("click", function () {
       requestAndBuild(productsData.filter(p => p.category === 'اجهزة السونار و الأشعة'));
     });
 
-    filter[7].addEventListener("click", function () {
+    filter[8].addEventListener("click", function () {
       requestAndBuild(productsData.filter(p => p.category === 'اجهزة اسنان'));
     });
 
-    filter[8].addEventListener("click", function () {
+    filter[9].addEventListener("click", function () {
       requestAndBuild(productsData.filter(p => p.category === 'اجهزة نساء و توليد'));
+    });
+    filter[1].addEventListener("click", function () {
+      requestAndBuild(productsData.filter(p => p.category === ' عرض خاص'));
     });
   })
   .catch(error => console.error('Error fetching products:', error));
@@ -109,20 +112,21 @@ function requestAndBuild(products) {
     let div = document.createElement("div");
     div.classList.add("pro");
     div.innerHTML = `
-                  <img src="${element.img}" alt="" onclick="clicked(${element.id})">
-            <div class="des">
-                <span>${element.category}</span>
-                <h5>${element.name}</h5>
-                <div class="star">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <h4>$${element.price}</h4>
-            </div>
-            <a id="cart" onclick="addToCart(${element.id})"><i class="fa-solid fa-cart-shopping cart"></i></a>
+      <img src="${element.img}" alt="" onclick="clicked(${element.id})">
+      <div class="des">
+        <span>${element.category}</span>
+        <h5>${element.name}</h5>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        ${element.oldPrice ? `<h4 style="color: red; text-decoration: line-through;">$${element.oldPrice}</h4>` : ''}
+        <h4>$${element.price}</h4>
+      </div>
+      <a id="cart" onclick="addToCart(${element.id})"><i class="fa-solid fa-cart-shopping cart"></i></a>
     `;
     pro.appendChild(div);
   });

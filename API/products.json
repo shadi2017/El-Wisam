@@ -76,7 +76,8 @@
       "id": 10,
       "img": "img/About/10.jpg",
       "name": "  سرير كهربائي 4 وضعيات    ",
-      "price": "",
+      "price": 22000,
+      "oldPrice":27000,
       "category": "أسرة المرضي",
       "description": "  سرير كهربائي 4 وضعيات  "
     },
@@ -92,7 +93,8 @@
       "id": 12,
       "img": "img/About/12.jpg",
       "name": " سرير رعايه بحركتين  ",
-      "price": "",
+      "price": 7000,
+      "oldPrice":9000,
       "category": "أسرة المرضي",
       "description": " سرير رعايه بحركتين  "
     },
@@ -100,7 +102,8 @@
       "id": 13,
       "img": "img/About/13.jpg",
       "name": "  سرير كهربائي 5 وضعيات   ",
-      "price": "",
+      "price": 79000,
+      "oldPrice": 83000,
       "category": "أسرة المرضي",
       "description": "سرير كهربائي 4 وضعيات   "
     },
@@ -108,7 +111,8 @@
       "id": 14,
       "img": "img/About/14.jpg",
       "name": " دياثرمي جهاز كي جراحي كهربائي - Diathermy Machine 400 HP",
-      "price": "",
+      "price": 170000,
+      "oldPrice":190000,
       "category": "اجهزة عمليات",
       "description": " دياثرمي جهاز كي جراحي كهربائي - Diathermy Machine 400 HP "
     },
@@ -323,6 +327,66 @@
       "price": "",
       "category": "اجهزة نساء و توليد",
       "description": " جهاز سونار اوميجا - Omega Ultrasound (XF-300)"
+    }
+    ,
+    {
+      "id": 41,
+      "img": "img/About/14.jpg",
+      "name": " دياثرمي جهاز كي جراحي كهربائي - Diathermy Machine 400 HP",
+      "price": 170000,
+      "oldPrice":190000,
+      "category": " عرض خاص",
+      "description": " دياثرمي جهاز كي جراحي كهربائي - Diathermy Machine 400 HP "
+    }
+    ,
+    {
+      "id": 42,
+      "img": "img/About/13.jpg",
+      "name": "  سرير كهربائي 5 وضعيات   ",
+      "price": 79000,
+      "oldPrice": 83000,
+      "category": " عرض خاص",
+      "description": "سرير كهربائي 4 وضعيات   "
+    }
+    ,
+    {
+      "id": 43,
+      "img": "img/About/12.jpg",
+      "name": " سرير رعايه بحركتين  ",
+      "price": 7000,
+      "oldPrice":9000,
+      "category": "عرض خاص",
+      "description": " سرير رعايه بحركتين  "
+    }
+    ,
+    {
+      "id": 44,
+      "img": "img/About/10.jpg",
+      "name": "  سرير كهربائي 4 وضعيات    ",
+      "price": 22000,
+      "oldPrice":27000,
+      "category": " عرض خاص",
+      "description": "  سرير كهربائي 4 وضعيات  "
+    }
+    ,
+    {
+      "id": 45,
+      "img": "img/About/41.jpg",
+      "name": " كيلو وات عاليه التردد ysenmed 32   كاميرا محموله لتصوير الاشعه السينيه بنظام",
+      "price": 925000,
+      "oldPrice":944000,
+      "category": " عرض خاص",
+      "description": " كيلو وات عاليه التردد ysenmed 32   كاميرا محموله لتصوير الاشعه السينيه بنظام"
+    }
+    ,
+    {
+      "id": 46,
+      "img": "img/About/42.jpg",
+      "name": " جهاز كاميرا استرايكر 1188 امريكي - Stryker 1188 Camera",
+      "price": 385000,
+      "oldPrice":400000,
+      "category": " عرض خاص",
+      "description": "جهاز كاميرا استرايكر 1188 امريكي - Stryker 1188 Camera"
     }
   ]
 }

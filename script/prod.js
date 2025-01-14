@@ -12,7 +12,7 @@ fetch(`API/products.json`)
       productImg.src = product.img;
       productName.innerHTML = product.name;
       productCategory.innerHTML = product.category;
-      productPrice.innerHTML = `$${product.price}`;
+      productPrice.innerHTML = `${product.oldPrice ? `<span style="color: red; text-decoration: line-through;">$${product.oldPrice}</span> ` : ''}$${product.price}`;
       productPar.innerHTML = product.description;
     } else {
       console.error('Product not found');
