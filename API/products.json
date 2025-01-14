@@ -122,17 +122,10 @@
       "description": " جهاز رسم قلب 12 قناه - ECG Machine 12 Channel "
     },
    
+
     {
       "id": 16,
       "img": "img/About/16.jpg",
-      "name": "  مولد اكسجين جرانزيا 10 لتر - OXygen Concentrator Granzia ",
-      "price": 42000,
-      "category": "اجهزة عمليات",
-      "description": "مولد اكسجين جرانزيا 10 لتر - OXygen Concentrator Granzia "
-    },
-    {
-      "id": 16,
-      "img": "img/About/17.jpg",
       "name": "  كشاف عمليات ليد سقف فردي - TRLEDSZ 4",
       "price": "",
       "category": "اجهزة عمليات",
@@ -140,7 +133,7 @@
     },
     {
       "id": 17,
-      "img": "img/About/18.jpg",
+      "img": "img/About/17.jpg",
       "name": "جهاز تخدير - Anesthesia Machine WATO EX-20",  
       "price": "",
       "category": "اجهزة عمليات",
