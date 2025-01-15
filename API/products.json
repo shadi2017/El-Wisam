@@ -85,7 +85,7 @@
       "id": 11,
       "img": "img/About/11.jpg",
       "name": "  سرير مساج الومنيوم  ",
-      "price": "",
+      "price": 27000,
       "category": "أسرة المرضي",
       "description": "  سرير مساج الومنيوم  "
     },
@@ -121,7 +121,7 @@
       "id": 15,
       "img": "img/About/15.jpg",
       "name": " جهاز رسم قلب 12 قناه - ECG Machine 12 Channel",
-      "price": "",
+      "price": 59000,
       "category": "اجهزة عمليات",
       "description": " جهاز رسم قلب 12 قناه - ECG Machine 12 Channel "
     },
@@ -131,7 +131,7 @@
       "id": 16,
       "img": "img/About/16.jpg",
       "name": "  كشاف عمليات ليد سقف فردي - TRLEDSZ 4",
-      "price": "",
+      "price": 125000,
       "category": "اجهزة عمليات",
       "description": " كشاف عمليات ليد سقف فردي - TRLEDSZ 4 "
     },
@@ -139,7 +139,7 @@
       "id": 17,
       "img": "img/About/17.jpg",
       "name": "جهاز تخدير - Anesthesia Machine WATO EX-20",  
-      "price": "",
+      "price": 1390000,
       "category": "اجهزة عمليات",
       "description": "جهاز تخدير - Anesthesia Machine WATO EX-20"
     },
@@ -147,7 +147,7 @@
       "id": 18,
       "img": "img/About/18.jpg",
       "name": "  جهاز العلاج بالموجات التصادميه - Shockwave Therapy Machine Onda",
-      "price": "",
+      "price": 38000,
       "category": "اجهزة عمليات",
       "description": " جهاز العلاج بالموجات التصادميه - Shockwave Therapy Machine Onda "
     },
@@ -155,7 +155,7 @@
       "id": 19,
       "img": "img/About/19.jpg",
       "name": "  جهاز منع التجلط الوريدي العميق - DVT Machine 2600",
-      "price": "",
+      "price": 55000,
       "category": "اجهزة عمليات",
       "description": " جهاز منع التجلط الوريدي العميق - DVT Machine 2600 "
     },
@@ -163,7 +163,7 @@
       "id": 20,
       "img": "img/About/20.jpg",
       "name": "كراش ترولي لتخزين الدواء - MT- 857071A2",
-      "price": "",
+      "price": 10000,
       "category": "اجهزة عمليات",
       "description": "كراش ترولي لتخزين الدواء - MT- 857071A2"
     },
@@ -172,7 +172,7 @@
       "id": 21,
       "img": "img/About/21.jpg",
       "name": "  جهاز تعقيم اوتوكلاف محلي 75 لتر - تصميم روسي ",
-      "price": "",
+      "price": 55000,
       "category": "اجهزة عمليات",
       "description": " جهاز تعقيم اوتوكلاف محلي 75 لتر - تصميم روسي "
     },
@@ -180,7 +180,8 @@
       "id": 22,
       "img": "img/About/22.jpg",
       "name": "  سرنجة محاليل - SN 50C6 ",
-      "price": "",
+      "price": 16000,
+      "oldPrice":20000,
       "category": "اجهزة عمليات",
       "description": " سرنجة محاليل - SN 50C6 "
     },
@@ -188,7 +189,7 @@
       "id": 23,
       "img": "img/About/23.jpg",
       "name": "  اوتوماتيك باي باب - Auto Bpap G3 B25VT",
-      "price": "",
+      "price": 28000,
       "category": "اجهزة عمليات",
       "description": " اوتوماتيك باي باب - Auto Bpap G3 B25VT "
     },
@@ -220,7 +221,7 @@
       "id": 27,
       "img": "img/About/27.jpg",
       "name": "  جهاز الاشعه السينيه المتنقل - PXP Series",
-      "price": "",
+      "price": 560000,
       "category": "اجهزة السونار و الأشعة",
       "description": " جهاز الاشعه السينيه المتنقل - PXP Series "
     },
@@ -252,7 +253,7 @@
       "id": 31,
       "img": "img/About/31.jpg",
       "name": "  كرسي أسنان ",
-      "price": "",
+      "price": 385000,
       "category": "اجهزة السونار و الأشعة",
       "description": "كرسي أسنان "
     },
@@ -268,7 +269,7 @@
       "id": 33,
       "img": "img/About/33.jpg",
       "name": " كرسي أسنان  ",
-      "price": "",
+      "price": 400000,
       "category": "اجهزة اسنان",
       "description": "كرسي أسنان  "
     },
@@ -276,7 +277,7 @@
       "id": 34,
       "img": "img/About/34.jpg",
       "name": "  منظار عنق الرحم OMega Video Colpocope ",
-      "price": "",
+      "price": 30000,
       "category": "اجهزة نساء و توليد",
       "description": " منظار عنق الرحم OMega Video Colpoc"
     },
@@ -284,7 +285,8 @@
       "id": 35,
       "img": "img/About/35.jpg",
       "name": "  جهاز قياس نبض الجنين للتوأم - CTG unicare fetal monitor TWIN ",
-      "price": "",
+      "price": 93000,
+      "oldPrice":100000,
       "category": "اجهزة نساء و توليد",
       "description": " جهاز قياس نبض الجنين للتوأم - CTG unicare fetal monitor TWIN "
     },
@@ -292,7 +294,7 @@
       "id": 36,
       "img": "img/About/36.jpg",
       "name": "  سونار شيزون كلر دوبلر - CHISON QBTI3 ",
-      "price": "",
+      "price": 730000,
       "category": "اجهزة نساء و توليد",
       "description": " سونار شيزون كلر دوبلر - CHISON QBTI3 "
     },
@@ -300,15 +302,17 @@
       "id": 37,
       "img": "img/About/37.jpg",
       "name": "  Gyna Examination Bed ",
-      "price": "",
+      "price": 11000,
+      "oldPrice":15000,
       "category": "اجهزة نساء و توليد",
       "description": " Gyna Examination Bed "
     },
     {
-      "id": 38,
+      "id": 38,//
       "img": "img/About/38.jpg",
       "name": "  جهاز سونار رباعي الابعاد تشيزون - Chison CBit 5",
-      "price": "",
+      "price":1170000 ,
+      "oldPrice":1180000,
       "category": "اجهزة نساء و توليد",
       "description": " جهاز سونار رباعي الابعاد تشيزون - Chison CBit 5"
     },
@@ -316,7 +320,7 @@
       "id": 39,
       "img": "img/About/39.jpg",
       "name": "  جهاز سونار تشيزون ايكو  اكسبيرت - Chison ECO Expert With Pulse Wave Doppler",
-      "price": "",
+      "price": 840000,
       "category": "اجهزة نساء و توليد",
       "description": " جهاز سونار تشيزون ايكو  اكسبيرت - Chison ECO Expert With Pulse Wave Doppler"
     },
@@ -324,7 +328,7 @@
       "id": 40,
       "img": "img/About/40.jpg",
       "name": "  جهاز سونار اوميجا - Omega Ultrasound (XF-300)",
-      "price": "",
+      "price":36000,
       "category": "اجهزة نساء و توليد",
       "description": " جهاز سونار اوميجا - Omega Ultrasound (XF-300)"
     }
@@ -387,6 +391,42 @@
       "oldPrice":400000,
       "category": " عرض خاص",
       "description": "جهاز كاميرا استرايكر 1188 امريكي - Stryker 1188 Camera"
+    },
+    {
+      "id": 47,
+      "img": "img/About/22.jpg",
+      "name": "  سرنجة محاليل - SN 50C6 ",
+      "price": 16000,
+      "oldPrice":20000,
+      "category": " عرض خاص",
+      "description": " سرنجة محاليل - SN 50C6 "
+    },
+    {
+      "id": 48,
+      "img": "img/About/35.jpg",
+      "name": "  جهاز قياس نبض الجنين للتوأم - CTG unicare fetal monitor TWIN ",
+      "price": 93000,
+      "oldPrice":100000,
+      "category": " عرض خاص",
+      "description": " جهاز قياس نبض الجنين للتوأم - CTG unicare fetal monitor TWIN "
+    },
+    {
+      "id": 49,
+      "img": "img/About/37.jpg",
+      "name": "  Gyna Examination Bed ",
+      "price": 11000,
+      "oldPrice":15000,
+      "category": "  عرض خاص",
+      "description": " Gyna Examination Bed "
+    },
+    {
+      "id": 50,
+      "img": "img/About/38.jpg",
+      "name": "  جهاز سونار رباعي الابعاد تشيزون - Chison CBit 5",
+      "price":1170000 ,
+      "oldPrice":1180000,
+      "category": "  عرض خاص",
+      "description": " جهاز سونار رباعي الابعاد تشيزون - Chison CBit 5"
     }
   ]
 }
